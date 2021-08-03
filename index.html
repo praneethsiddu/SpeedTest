@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet'  href='style.css'>
+    <title>Speed Test</title>
+    <style>
+        .unselectable {
+          -webkit-user-select: none;
+          -webkit-touch-callout: none;
+          -moz-user-select: none;
+          -ms-user-select: none;
+          user-select: none;
+         
+        }
+      </style>
+</head>
+<body>
+    <header class="masthead">
+    <h1>Speed Test</h1>
+    </header>
+    <main class="main">
+        <article class="intro">
+           <p>
+            This is a typing test.Your goal is to duplicate the provided text, EXACTLY, in the field below. The timer starts when you start typing, and only stops when you match this text exactly. Good Luck!  
+           </p>
+        </article>
+        <section class="text-area">
+        <div id="origin-text">
+            <p class="unselectable">Wikipedia is an online free content encyclopedia project helping create a world in which everyone can freely share in the sum of all knowledge. It is supported by the Wikimedia Foundation and based on a model of freely editable content. The name "Wikipedia" is a blending of the words wiki (a technology for creating collaborative websites, from the Hawaiian word wiki, meaning "quick") and encyclopedia. Wikipedia's articles provide links designed to guide the user to related pages with additional information.</p>
+        </div>
+        <div class="test-wrapper" id="ret">
+        <textarea id="test-area" name="textarea" rows="8" placeholder="The clock starts when you start typing."></textarea>
+        </div>
+        <div class="meta">
+            <section id="clock">
+               <div class="timer">00:00:00</div>
+            </section>
+            <button id="reset">Reset</button>
+        </div>
+        </section>
+    </main>
+    <div class="container-2">
+
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>
